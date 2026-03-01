@@ -1,0 +1,24 @@
+{
+    "name": "autoshorts-server",
+    "version": "1.0.0",
+    "description": "AutoShorts Backend",
+    "repository": "https://github.com/osamuelnovaes/autoshorts",
+    "root": "server",
+    "install": {
+        "method": "npm",
+        "runtime": "nodejs18",
+        "build": ["npm install"]
+    },
+    "start": {
+        "command": "node src/index.js",
+        "runtime": "nodejs18"
+    },
+    "env": {
+        "NODE_ENV": {
+            "value": "production"
+        },
+        "PORT": {
+            "value": "3000"
+        }
+    }
+}
